@@ -14,14 +14,14 @@ we have 3 files:
 
 **Columns** :
 
-id 
-comment_text
-"toxic 
-severe_toxic
-obscene
-threat
-insult
-identity_hate"
+id, 
+comment_text,
+toxic, 
+severe_toxic,
+obscene,
+threat,
+insult,
+identity_hate
 
 ![center](./images/data.png)
 
