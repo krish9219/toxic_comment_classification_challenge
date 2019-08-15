@@ -12,7 +12,7 @@ we have 3 files:
 2. test.csv  --> (153164, 2)
 3. Sample_submission.
 
-_**Columns :
+**Columns :
 
 id 
 comment_text
@@ -23,7 +23,7 @@ threat
 insult
 identity_hate"
 
-
+![center]['/images/data.png']
 
 
 My initial attempt is to use LSTM directly to see how effective was that approach is. In this project i used GLoVe pretrained weights to build the model. Due to memory contrains i fitted for only 2 epochs, with only 2 fully connected layers and a Dropout.
