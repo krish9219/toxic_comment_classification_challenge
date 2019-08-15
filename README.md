@@ -23,7 +23,19 @@ threat
 insult
 identity_hate"
 
-![center]['/images/data.png']
+![center](./images/data.png)
 
+**Libraries used:
+![center](./images/libs.png)
 
 My initial attempt is to use LSTM directly to see how effective was that approach is. In this project i used GLoVe pretrained weights to build the model. Due to memory contrains i fitted for only 2 epochs, with only 2 fully connected layers and a Dropout.
+
+**Model Summary:
+
+![center](./images/model.png)
+
+**Accuracy:
+
+![center](./images/result.png)
+
+Got an accuracy of 97% with 2 epochs, Accuracy can be increased if we use early stopping and allow our model to run upto it reaches a threshold.
